@@ -1,0 +1,112 @@
+body, h1, h2, h3, p, span {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+    color: #333;
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+/* 헤더 스타일 */
+header {
+    background-color: #FF4A3C;
+    color: #fff;
+    padding: 20px 40px;
+    text-align: center;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.icon-text {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.material-symbols-outlined {
+    font-size: 24px;
+}
+
+.contact-info {
+    font-size: 14px;
+}
+
+.title h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.title p {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* 메인 섹션 스타일 */
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 40px auto;
+    padding: 0 40px;
+    max-width: 1200px;
+}
+
+.left-side, .right-side {
+    flex: 1;
+    min-width: 300px;
+    margin: 10px;
+}
+
+.left-side h2 {
+    font-size: 28px;
+    color: #FF4A3C;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.left-side p {
+    font-size: 16px;
+    color: #333;
+}
+
+.right-side h3 {
+    font-size: 18px;
+    margin-top: 20px;
+    color: #444;
+}
+
+/* 태그 스타일 */
+.tags {
+    margin-top: 10px;
+}
+
+.tags span {
+    display: inline-block;
+    margin: 5px 5px 5px 0;
+    padding: 5px 10px;
+    border: 1px solid #FF4A3C;
+    border-radius: 20px;
+    font-size: 14px;
+    color: #FF4A3C;
+    transition: all 0.3s ease; /* 부드러운 전환 효과 */
+    cursor: pointer; /* 마우스 커서를 포인터로 변경 */
+}
+
+/* 호버 효과 */
+.tags span:hover {
+    background-color: #FF4A3C; /* 배경색 변경 */
+    color: #fff; /* 글자색 변경 */
+    border-color: #FF4A3C; /* 테두리 색상 변경 */
+}
+
